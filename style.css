@@ -36,10 +36,12 @@ body {
     border-top: 1px solid white;;
   }
   
+  /* center aligned text */
   .hour {
     background-color: #ffffff;
     color: #000000;
     border-top: 1px dashed #000000;
+    text-align: center;
   }
   
   .past {
@@ -68,8 +70,4 @@ body {
   .saveBtn i:hover {
     font-size: 20px;
     transition: all .3s ease-in-out;
-  }
-
-  .saveBtn i:active {
-    color:black;
   }
